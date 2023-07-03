@@ -14,14 +14,6 @@ body{
   background-repeat: no-repeat;
   /* background-position: center; */
 }
-/* .app-container {
-  background-image: url(./Components/sunset.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height:fit-content;
-  width:auto;
-} */
 .main{
   height:auto;
   width:auto;
