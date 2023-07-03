@@ -6,15 +6,22 @@
   height: 40vmin;
   pointer-events: none;
 }
-.app-container {
+body{
+  margin:0;
+  padding:0;
+  background-image: url(./Components/sunset.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+/* .app-container {
   background-image: url(./Components/sunset.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height:auto;
+  height:fit-content;
   width:auto;
-  /* Additional styling properties */
-}
+} */
 .main{
   height:auto;
   width:auto;

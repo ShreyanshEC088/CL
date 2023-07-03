@@ -11,11 +11,11 @@ export default class App extends Component {
     dest: PropTypes.string,
   };
   render() {
-    const {dest} =this.props;
+    // const {dest} =this.state;
     return (
       <div className="app-container">
         <Navbar/>
-        <Weather region={"bengaluru"}/>
+        <Weather/>
       </div>
     )
   }
