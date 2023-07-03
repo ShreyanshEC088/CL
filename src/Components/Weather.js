@@ -49,16 +49,16 @@ export default class Weather extends Component {
             articles.map((element) => (
               <div key={element.location?.name}>
                 <WeatherComp
-                  place={element.location?.name || ""}
-                  currTemp={element.current?.temp_c || ""}
-                  text={element.current?.condition.text || ""}
-                  icon={element.current?.condition.icon || ""}
-                  max={element.forecast?.forecastday[0]?.day.maxtemp_c || ""}
-                  min={element.forecast?.forecastday[0]?.day.mintemp_c || ""}
-                  feel={element.current?.feelslike_c || ""}
-                  press={element.current?.pressure_mb || ""}
-                  humid={element.current?.humidity || ""}
-                  wind={element.current?.wind_kph || ""}
+                  place={element.location?.name || alert("Error Enter Correct Location")}
+                  currTemp={element.current?.temp_c }
+                  text={element.current?.condition.text }
+                  icon={element.current?.condition.icon }
+                  max={element.forecast?.forecastday[0]?.day.maxtemp_c }
+                  min={element.forecast?.forecastday[0]?.day.mintemp_c }
+                  feel={element.current?.feelslike_c}
+                  press={element.current?.pressure_mb }
+                  humid={element.current?.humidity }
+                  wind={element.current?.wind_kph }
                 />
               </div>
             ))}
