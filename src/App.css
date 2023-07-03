@@ -6,7 +6,26 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.app-container {
+  background-image: url(./Components/sunset.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:auto;
+  width:auto;
+  /* Additional styling properties */
+}
+.main{
+  height:auto;
+  width:auto;
+  background-color: rgba(37, 38, 48, 0.621);
+  border-radius: 10px;
+  color:white;
+  margin:40px;
+}
+.first{
+ padding:20px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
